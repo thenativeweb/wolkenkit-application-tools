@@ -1,11 +1,5 @@
 'use strict';
 
-var forAuthenticated = require('./forAuthenticated'),
-    forPublic = require('./forPublic'),
-    reject = require('./reject');
+var requireDir = require('require-dir');
 
-module.exports = {
-  forAuthenticated: forAuthenticated,
-  forPublic: forPublic,
-  reject: reject
-};
+module.exports = requireDir(__dirname);
