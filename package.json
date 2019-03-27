@@ -1,0 +1,32 @@
+{
+  "name": "wolkenkit-application-tools",
+  "version": "0.0.0",
+  "description": "wolkenkit-application-tools is a collection of tools for writing wolkenkit applications.",
+  "contributors": [
+    {
+      "name": "Golo Roden",
+      "email": "golo.roden@thenativeweb.io"
+    },
+    {
+      "name": "Matthias Wagler",
+      "email": "matthias.wagler@thenativeweb.io"
+    }
+  ],
+  "main": "dist/wolkenkitApplicationTools.js",
+  "dependencies": {
+    "@babel/runtime": "7.3.4",
+    "humanize-string": "2.0.0"
+  },
+  "devDependencies": {
+    "assertthat": "2.0.3",
+    "roboter": "4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thenativeweb/wolkenkit-application-tools.git"
+  },
+  "keywords": [
+    "wolkenkit"
+  ],
+  "license": "AGPL-3.0"
+}
